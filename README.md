@@ -1,0 +1,1 @@
+# amplify-my-media-app-example
