@@ -14,6 +14,12 @@
     "categories": {
       "auth": {
         "amplifymymediaappexa1e3c12e6": {}
+      },
+      "storage": {
+        "amplifymymediaappexa64a3f2d3": {
+          "bucketName": "atsupi-media-20230508",
+          "region": "ap-northeast-1"
+        }
       }
     }
   }
