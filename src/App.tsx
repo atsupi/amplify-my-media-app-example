@@ -17,6 +17,7 @@ function App() {
   },[]);
 
   const submitFile = async (event: React.ChangeEvent<HTMLInputElement>) => {
+    event.preventDefault();
     const files = event.target.files;
     setSubmitStatus("");
     if (files && files[0]) {
