@@ -30,10 +30,11 @@ function App() {
           contentType: "video/quicktime",
         });
         setSubmitStatus("Converting file...");
-        await invokeVideoConvert(
+        const res = await invokeVideoConvert(
           "public/input/" + filename,
           "public/output/" + newFile
         );
+        console.log(res);
         setTimeout(() => {
           getPresignedUrl(s3Bucket, "public/output/" + newFile).then((url) => {
             setMovUrl(url);
