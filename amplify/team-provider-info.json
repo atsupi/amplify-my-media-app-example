@@ -44,6 +44,12 @@
           "bucketName": "atsupi-media-20230508",
           "region": "ap-northeast-1"
         }
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d2zuq5gquc97fs",
+          "type": "manual"
+        }
       }
     }
   }
