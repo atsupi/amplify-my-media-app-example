@@ -13,18 +13,36 @@
     },
     "categories": {
       "auth": {
-        "amplifymymediaappexa1e3c12e6": {}
+        "amplifymymediaappexadce7160e": {}
       },
       "storage": {
-        "amplifymymediaappexa64a3f2d3": {
+        "amplifymymediaappexa40fbdab9": {
           "bucketName": "atsupi-media-20230508",
           "region": "ap-northeast-1"
         }
+      }
+    }
+  },
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifymymediaappexa-prod-222257-authRole",
+      "UnauthRoleArn": "arn:aws:iam::074682543290:role/amplify-amplifymymediaappexa-prod-222257-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::074682543290:role/amplify-amplifymymediaappexa-prod-222257-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-amplifymymediaappexa-prod-222257-deployment",
+      "UnauthRoleName": "amplify-amplifymymediaappexa-prod-222257-unauthRole",
+      "StackName": "amplify-amplifymymediaappexa-prod-222257",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:074682543290:stack/amplify-amplifymymediaappexa-prod-222257/0b1e7790-03a4-11ee-9e17-0eed575ec5df",
+      "AmplifyAppId": "d2zuq5gquc97fs"
+    },
+    "categories": {
+      "auth": {
+        "amplifymymediaappexadce7160e": {}
       },
-      "hosting": {
-        "amplifyhosting": {
-          "appId": "d3uo4al9077jjp",
-          "type": "manual"
+      "storage": {
+        "amplifymymediaappexa40fbdab9": {
+          "bucketName": "atsupi-media-20230508",
+          "region": "ap-northeast-1"
         }
       }
     }

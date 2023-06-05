@@ -1,6 +1,6 @@
 {
   "auth": {
-    "amplifymymediaappexa1e3c12e6": {
+    "amplifymymediaappexadce7160e": {
       "customAuth": false,
       "dependsOn": [],
       "frontendAuthConfig": {
@@ -25,49 +25,27 @@
       "service": "Cognito"
     }
   },
-  "hosting": {
-    "amplifyhosting": {
-      "providerPlugin": "awscloudformation",
-      "service": "amplifyhosting",
-      "type": "manual"
-    }
-  },
+  "hosting": {},
   "parameters": {
-    "AMPLIFY_hosting_amplifyhosting_appId": {
-      "usedBy": [
-        {
-          "category": "hosting",
-          "resourceName": "amplifyhosting"
-        }
-      ]
-    },
-    "AMPLIFY_hosting_amplifyhosting_type": {
-      "usedBy": [
-        {
-          "category": "hosting",
-          "resourceName": "amplifyhosting"
-        }
-      ]
-    },
-    "AMPLIFY_storage_amplifymymediaappexa64a3f2d3_bucketName": {
+    "AMPLIFY_storage_amplifymymediaappexa40fbdab9_bucketName": {
       "usedBy": [
         {
           "category": "storage",
-          "resourceName": "amplifymymediaappexa64a3f2d3"
+          "resourceName": "amplifymymediaappexa40fbdab9"
         }
       ]
     },
-    "AMPLIFY_storage_amplifymymediaappexa64a3f2d3_region": {
+    "AMPLIFY_storage_amplifymymediaappexa40fbdab9_region": {
       "usedBy": [
         {
           "category": "storage",
-          "resourceName": "amplifymymediaappexa64a3f2d3"
+          "resourceName": "amplifymymediaappexa40fbdab9"
         }
       ]
     }
   },
   "storage": {
-    "amplifymymediaappexa64a3f2d3": {
+    "amplifymymediaappexa40fbdab9": {
       "dependsOn": [],
       "providerPlugin": "awscloudformation",
       "service": "S3",
