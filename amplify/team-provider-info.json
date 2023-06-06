@@ -1,28 +1,4 @@
 {
-  "dev": {
-    "awscloudformation": {
-      "AuthRoleName": "amplify-amplifymymediaappexa-dev-02844-authRole",
-      "UnauthRoleArn": "arn:aws:iam::074682543290:role/amplify-amplifymymediaappexa-dev-02844-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::074682543290:role/amplify-amplifymymediaappexa-dev-02844-authRole",
-      "Region": "ap-northeast-1",
-      "DeploymentBucketName": "amplify-amplifymymediaappexa-dev-02844-deployment",
-      "UnauthRoleName": "amplify-amplifymymediaappexa-dev-02844-unauthRole",
-      "StackName": "amplify-amplifymymediaappexa-dev-02844",
-      "StackId": "arn:aws:cloudformation:ap-northeast-1:074682543290:stack/amplify-amplifymymediaappexa-dev-02844/7f2e5800-f010-11ed-8538-06bbc29e5367",
-      "AmplifyAppId": "d3uo4al9077jjp"
-    },
-    "categories": {
-      "auth": {
-        "amplifymymediaappexadce7160e": {}
-      },
-      "storage": {
-        "amplifymymediaappexa40fbdab9": {
-          "bucketName": "atsupi-media-20230508",
-          "region": "ap-northeast-1"
-        }
-      }
-    }
-  },
   "prod": {
     "awscloudformation": {
       "AuthRoleName": "amplify-amplifymymediaappexa-prod-222257-authRole",
