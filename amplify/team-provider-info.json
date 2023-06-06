@@ -51,6 +51,12 @@
           "deploymentBucketName": "amplify-amplifymymediaappexa-prod-222257-deployment",
           "s3Key": "amplify-builds/mediaapipath-4d667368754775615266-build.zip"
         }
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d2zuq5gquc97fs",
+          "type": "cicd"
+        }
       }
     }
   }
