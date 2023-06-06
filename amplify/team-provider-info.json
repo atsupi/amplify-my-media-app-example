@@ -1,22 +1,22 @@
 {
-  "prod": {
+  "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-amplifymymediaappexa-prod-222257-authRole",
-      "UnauthRoleArn": "arn:aws:iam::074682543290:role/amplify-amplifymymediaappexa-prod-222257-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::074682543290:role/amplify-amplifymymediaappexa-prod-222257-authRole",
+      "AuthRoleName": "amplify-amplifymymediaappexa-dev-04353-authRole",
+      "UnauthRoleArn": "arn:aws:iam::074682543290:role/amplify-amplifymymediaappexa-dev-04353-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::074682543290:role/amplify-amplifymymediaappexa-dev-04353-authRole",
       "Region": "ap-northeast-1",
-      "DeploymentBucketName": "amplify-amplifymymediaappexa-prod-222257-deployment",
-      "UnauthRoleName": "amplify-amplifymymediaappexa-prod-222257-unauthRole",
-      "StackName": "amplify-amplifymymediaappexa-prod-222257",
-      "StackId": "arn:aws:cloudformation:ap-northeast-1:074682543290:stack/amplify-amplifymymediaappexa-prod-222257/0b1e7790-03a4-11ee-9e17-0eed575ec5df",
-      "AmplifyAppId": "d2zuq5gquc97fs"
+      "DeploymentBucketName": "amplify-amplifymymediaappexa-dev-04353-deployment",
+      "UnauthRoleName": "amplify-amplifymymediaappexa-dev-04353-unauthRole",
+      "StackName": "amplify-amplifymymediaappexa-dev-04353",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:074682543290:stack/amplify-amplifymymediaappexa-dev-04353/e298be10-0480-11ee-a69c-0a04090f2353",
+      "AmplifyAppId": "dj9ayjbuya2o"
     },
     "categories": {
       "auth": {
-        "amplifymymediaappexadce7160e": {}
+        "amplifymymediaappexa15a146d9": {}
       },
       "storage": {
-        "amplifymymediaappexa40fbdab9": {
+        "amplifymymediaappexa9827f5f5": {
           "bucketName": "atsupi-media-20230508",
           "region": "ap-northeast-1"
         }
@@ -24,23 +24,12 @@
       "function": {
         "mediaapipath": {
           "mediaapipath": "https://23jjemghxe.ap-northeast-1.awsapprunner.com/media",
-          "deploymentBucketName": "amplify-amplifymymediaappexa-prod-222257-deployment",
-          "s3Key": "amplify-builds/mediaapipath-4d667368754775615266-build.zip"
+          "deploymentBucketName": "amplify-amplifymymediaappexa-dev-04353-deployment",
+          "s3Key": "amplify-builds/mediaapipath-78362b67697133713235-build.zip"
         }
       },
-      "hosting": {
-        "amplifyhosting": {
-          "appId": "d2zuq5gquc97fs",
-          "type": "cicd"
-        }
-      }
-    }
-  },
-  "dev": {
-    "awscloudformation": {},
-    "categories": {
-      "auth": {
-        "amplifymymediaappexadce7160e": {}
+      "api": {
+        "getitem": {}
       }
     }
   }

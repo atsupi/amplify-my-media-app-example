@@ -3,10 +3,10 @@
 
 const awsmobile = {
     "aws_project_region": "ap-northeast-1",
-    "aws_cognito_identity_pool_id": "ap-northeast-1:b511adc6-fb49-4d26-ac5f-45a9b146e4d7",
+    "aws_cognito_identity_pool_id": "ap-northeast-1:cd2106ea-87bc-4f5d-936c-18cc2961c38b",
     "aws_cognito_region": "ap-northeast-1",
-    "aws_user_pools_id": "ap-northeast-1_OP5EY4ndm",
-    "aws_user_pools_web_client_id": "2tqrr0i2dn3jr6fs45ailoc3a7",
+    "aws_user_pools_id": "ap-northeast-1_FzL1B3I2c",
+    "aws_user_pools_web_client_id": "5cef88j0qop3e2tc2bt9s63c6e",
     "oauth": {},
     "aws_cognito_username_attributes": [],
     "aws_cognito_social_providers": [],
@@ -25,7 +25,14 @@ const awsmobile = {
         "EMAIL"
     ],
     "aws_user_files_s3_bucket": "atsupi-media-20230508",
-    "aws_user_files_s3_bucket_region": "ap-northeast-1"
+    "aws_user_files_s3_bucket_region": "ap-northeast-1",
+    "aws_cloud_logic_custom": [
+        {
+            "name": "getitem",
+            "endpoint": "https://cat17uil8f.execute-api.ap-northeast-1.amazonaws.com/dev",
+            "region": "ap-northeast-1"
+        }
+    ]
 };
 
 

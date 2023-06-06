@@ -1,6 +1,22 @@
 {
+  "api": {
+    "getitem": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "mediaapipath"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
   "auth": {
-    "amplifymymediaappexadce7160e": {
+    "amplifymymediaappexa15a146d9": {
       "customAuth": false,
       "dependsOn": [],
       "frontendAuthConfig": {
@@ -33,15 +49,50 @@
       "service": "Lambda"
     }
   },
-  "hosting": {
-    "amplifyhosting": {
-      "lastPushTimeStamp": "2023-06-06T14:12:36.515Z",
-      "service": "amplifyhosting",
-      "type": "cicd"
+  "parameters": {
+    "AMPLIFY_function_mediaapipath_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mediaapipath"
+        }
+      ]
+    },
+    "AMPLIFY_function_mediaapipath_mediaapipath": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mediaapipath"
+        }
+      ]
+    },
+    "AMPLIFY_function_mediaapipath_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mediaapipath"
+        }
+      ]
+    },
+    "AMPLIFY_storage_amplifymymediaappexa9827f5f5_bucketName": {
+      "usedBy": [
+        {
+          "category": "storage",
+          "resourceName": "amplifymymediaappexa9827f5f5"
+        }
+      ]
+    },
+    "AMPLIFY_storage_amplifymymediaappexa9827f5f5_region": {
+      "usedBy": [
+        {
+          "category": "storage",
+          "resourceName": "amplifymymediaappexa9827f5f5"
+        }
+      ]
     }
   },
   "storage": {
-    "amplifymymediaappexa40fbdab9": {
+    "amplifymymediaappexa9827f5f5": {
       "dependsOn": [],
       "providerPlugin": "awscloudformation",
       "service": "S3",

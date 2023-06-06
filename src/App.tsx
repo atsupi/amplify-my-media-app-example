@@ -4,7 +4,7 @@ import { Authenticator, Button } from "@aws-amplify/ui-react";
 import React, { useEffect, useState } from "react";
 import { getPresignedUrl, invokeVideoConvert } from "./Utils";
 import { Storage } from "aws-amplify";
-import config from "./aws-exports";
+import config from "./aws-exports.ts";
 
 const s3Bucket = config.aws_user_files_s3_bucket;
 

@@ -1,6 +1,13 @@
 export type AmplifyDependentResourcesAttributes = {
+  "api": {
+    "getitem": {
+      "ApiId": "string",
+      "ApiName": "string",
+      "RootUrl": "string"
+    }
+  },
   "auth": {
-    "amplifymymediaappexadce7160e": {
+    "amplifymymediaappexa15a146d9": {
       "AppClientID": "string",
       "AppClientIDWeb": "string",
       "IdentityPoolId": "string",
