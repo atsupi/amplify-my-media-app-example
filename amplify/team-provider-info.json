@@ -35,5 +35,13 @@
         }
       }
     }
+  },
+  "dev": {
+    "awscloudformation": {},
+    "categories": {
+      "auth": {
+        "amplifymymediaappexadce7160e": {}
+      }
+    }
   }
 }

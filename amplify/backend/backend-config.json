@@ -40,64 +40,6 @@
       "type": "cicd"
     }
   },
-  "parameters": {
-    "AMPLIFY_function_mediaapipath_deploymentBucketName": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "mediaapipath"
-        }
-      ]
-    },
-    "AMPLIFY_function_mediaapipath_mediaapipath": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "mediaapipath"
-        }
-      ]
-    },
-    "AMPLIFY_function_mediaapipath_s3Key": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "mediaapipath"
-        }
-      ]
-    },
-    "AMPLIFY_hosting_amplifyhosting_appId": {
-      "usedBy": [
-        {
-          "category": "hosting",
-          "resourceName": "amplifyhosting"
-        }
-      ]
-    },
-    "AMPLIFY_hosting_amplifyhosting_type": {
-      "usedBy": [
-        {
-          "category": "hosting",
-          "resourceName": "amplifyhosting"
-        }
-      ]
-    },
-    "AMPLIFY_storage_amplifymymediaappexa40fbdab9_bucketName": {
-      "usedBy": [
-        {
-          "category": "storage",
-          "resourceName": "amplifymymediaappexa40fbdab9"
-        }
-      ]
-    },
-    "AMPLIFY_storage_amplifymymediaappexa40fbdab9_region": {
-      "usedBy": [
-        {
-          "category": "storage",
-          "resourceName": "amplifymymediaappexa40fbdab9"
-        }
-      ]
-    }
-  },
   "storage": {
     "amplifymymediaappexa40fbdab9": {
       "dependsOn": [],
