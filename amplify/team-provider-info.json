@@ -45,10 +45,11 @@
           "region": "ap-northeast-1"
         }
       },
-      "hosting": {
-        "amplifyhosting": {
-          "appId": "d2zuq5gquc97fs",
-          "type": "manual"
+      "function": {
+        "mediaapipath": {
+          "mediaapipath": "https://23jjemghxe.ap-northeast-1.awsapprunner.com/media",
+          "deploymentBucketName": "amplify-amplifymymediaappexa-prod-222257-deployment",
+          "s3Key": "amplify-builds/mediaapipath-4d667368754775615266-build.zip"
         }
       }
     }

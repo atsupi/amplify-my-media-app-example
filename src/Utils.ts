@@ -5,6 +5,8 @@ import config from './aws-exports';
 
 const s3Region = config.aws_user_files_s3_bucket_region;
 
+console.log("Environment Variable", process.env.mediaapipath);
+
 export async function invokeVideoConvert(key: string, newKey: string) {
     const command = {
         "key": key,

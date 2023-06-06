@@ -25,27 +25,37 @@
       "service": "Cognito"
     }
   },
-  "hosting": {
-    "amplifyhosting": {
+  "function": {
+    "mediaapipath": {
+      "build": true,
+      "dependsOn": [],
       "providerPlugin": "awscloudformation",
-      "service": "amplifyhosting",
-      "type": "manual"
+      "service": "Lambda"
     }
   },
+  "hosting": {},
   "parameters": {
-    "AMPLIFY_hosting_amplifyhosting_appId": {
+    "AMPLIFY_function_mediaapipath_deploymentBucketName": {
       "usedBy": [
         {
-          "category": "hosting",
-          "resourceName": "amplifyhosting"
+          "category": "function",
+          "resourceName": "mediaapipath"
         }
       ]
     },
-    "AMPLIFY_hosting_amplifyhosting_type": {
+    "AMPLIFY_function_mediaapipath_mediaapipath": {
       "usedBy": [
         {
-          "category": "hosting",
-          "resourceName": "amplifyhosting"
+          "category": "function",
+          "resourceName": "mediaapipath"
+        }
+      ]
+    },
+    "AMPLIFY_function_mediaapipath_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mediaapipath"
         }
       ]
     },
